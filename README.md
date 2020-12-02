@@ -32,7 +32,7 @@ Then this guide will be of use !!
  it's name at the device box .On Boot selection choose "Disk or Iso image " and on the right select the ISO image you downloaded . Hit start , make sure 
  to read and understand the warning rufus gives you **( Any data on the micro SD will be lost! )** and wait till the process finishes . 
  
-<img src="https://github.com/Poulinakis-Konstantinos/Headless-RaspBerry-Pi-4b/blob/main/Rufus.PNG" alt="rufus" width="250" height="350">
+<img src="https://github.com/Poulinakis-Konstantinos/Headless-RaspBerry-Pi-4b/blob/main/Rufus.PNG" alt="rufus" width="350" height="250">
   
  Now normally ,once rufus has finished you would just insert the sd directly onto the Pi . But this time we will need to first make some configurations ! 
  
