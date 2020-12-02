@@ -59,4 +59,5 @@ Then this guide will be of use !!
    
    ### That's  it you're in !!! 
   this is what you expect to see 
-<img src="https://github.com/Poulinakis-Konstantinos/Headless-RaspBerry-Pi-4b/blob/main/Rufus.PNG" alt="rufus" width="350" height="350">
+  
+<img src="https://github.com/Poulinakis-Konstantinos/Headless-RaspBerry-Pi-4b/blob/main/VNC.PNG" alt="VNC view" width="350" height="350">
