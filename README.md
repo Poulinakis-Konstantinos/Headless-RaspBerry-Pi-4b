@@ -18,6 +18,7 @@ Then this guide will be of use !!
    - [Raspberry Pi OS with desktop and recommended software](https://www.raspberrypi.org/software/operating-systems/)
    - Rufus 
    - Putty
+   - VNC viewer
   
   
  ## 1.Flashing OS to sd card :
@@ -46,5 +47,16 @@ Then this guide will be of use !!
  
  ## 3. Accesing Pi's terminal with Putty
   ### We now want to activate the VNC connection with the Pi that will allow it to share it's desktop over wifi.
-  Open putty and type t
+  Boot your raspberry pi and wait for about a minute until everything has loaded . 
+  Open putty and type the pi's IP address in the host name . Choose ssh connect via SSH with your pi. You could use Netwatcher for that .
+  Once you have access to the pi's terminal it will ask for username:pi , password:raspberry ( these are the default credentials).
+  Now enable VNC . Run `<sudo raspi-config>` , a menu will appear. Search **"Interface Options"** find **VNC and enable it** . 
+  Almost done ! 
   
+  ## 4. Accesing Pi's Desktop via VNC 
+   ### Now it's time to download VNC viewer if you haven't already done .  This is the software that allows Pi to share it's desktop with us .
+   Pi already has preinstalled VNC server. Open VNC and create a connection to the pi's IP . 
+   
+   ### That's  it you're in !!! 
+  this is what you expect to see 
+<img src="https://github.com/Poulinakis-Konstantinos/Headless-RaspBerry-Pi-4b/blob/main/Rufus.PNG" alt="rufus" width="350" height="350">
