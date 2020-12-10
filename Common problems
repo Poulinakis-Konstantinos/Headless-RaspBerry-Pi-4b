@@ -2,7 +2,7 @@ Problem:  When I connect with VNC viewer, a black windows appears with written: 
 
 Solution: This is usually because of a resolution mismatch between VNC server ( in RPi) and the VNC viewer (in computer).
 
-To solve this just go to PuTTy terminal and type sudo raspi-config which will display a menu. Choose Advanced Options under which choose Resolution. 
+To solve this just go to PuTTy terminal and type sudo raspi-config which will display a menu. Choose Display Options under which choose Resolution. 
 Now you can see a number of resolutions, choose the one matching the resolution of your computer ( 1920x1080 commonly). Now reboot the Pi and try connecting to VNC.
 
 
